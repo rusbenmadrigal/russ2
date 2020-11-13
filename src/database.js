@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('MONGODB_URI', {
+mongoose.connect('/node-db-app', {
     useCreateIndex: true,
     useNewUrlParser: true,
     useFindAndModify: false
